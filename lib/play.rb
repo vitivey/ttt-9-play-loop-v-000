@@ -31,9 +31,6 @@ def turn(board)
     puts "Yes"
     move(board, index)
     display_board(board)
-  else
-    puts "No"
-    #turn(board)
   end
 end
 
